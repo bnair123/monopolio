@@ -1,9 +1,13 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, render_template
 from models import db, Player, Property, Trade, Game
 from sqlalchemy.exc import IntegrityError
 import json
 
 api = Blueprint('api', __name__)
+
+@api.route('/')
+def start_page():
+    return render_template('start.html')
 
 
 @api.route('/players', methods=['GET'])
