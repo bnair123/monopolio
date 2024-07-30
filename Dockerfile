@@ -1,6 +1,18 @@
 FROM python:latest
 LABEL authors="bnair"
 
+# Accept build arguments
+ARG FLASK_APP
+ARG FLASK_ENV
+ARG FLASK_DEBUG
+ARG PYTHONPATH
+
+# Set environment variables
+ENV FLASK_APP=$FLASK_APP
+ENV FLASK_ENV=$FLASK_ENV
+ENV FLASK_DEBUG=$FLASK_DEBUG
+ENV PYTHONPATH=$PYTHONPATH
+
 # Set the working directory in the container
 WORKDIR /app
 
@@ -12,10 +24,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code to the working directory
 COPY . .
-
-# Set environment variables
-ENV FLASK_APP=app
-ENV FLASK_RUN_HOST=0.0.0.0
 
 # Expose the port the app runs on
 EXPOSE 8000
