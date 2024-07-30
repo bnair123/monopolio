@@ -1,0 +1,87 @@
+body {
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.player-list, .property-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-list li, .property-list li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.property-item {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.property-color-band {
+    height: 20px;
+    width: 100%;
+}
+
+.property-details {
+    padding: 10px;
+}
+
+.building-symbol {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.house {
+    background-color: green;
+}
+
+.hotel {
+    background-color: red;
+}

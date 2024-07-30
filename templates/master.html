@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly Game Master</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monopoly Game Master</h1>
+
+        <h2>Players</h2>
+        <ul id="player-list" class="player-list"></ul>
+
+        <h2>Add Player</h2>
+        <input type="text" id="new-player-name" placeholder="Player Name">
+        <button onclick="addPlayer()">Add Player</button>
+
+        <h2>Adjust Balance</h2>
+        <select id="player-select"></select>
+        <input type="number" id="amount" placeholder="Amount">
+        <button onclick="adjustBalance()">Adjust Balance</button>
+
+        <h2>Give Property</h2>
+        <select id="property-select"></select>
+        <select id="player-property-select"></select>
+        <select id="payment-method">
+            <option value="cash">Cash</option>
+            <option value="digital">Digital</option>
+            <option value="mix">Mix</option>
+        </select>
+        <button onclick="giveProperty()">Give Property</button>
+
+        <h2>All Properties</h2>
+        <div id="all-properties-list"></div>
+
+        <h2>Game Control</h2>
+        <button onclick="resetGame()">Reset Game</button>
+        <button onclick="endGame()">End Game</button>
+    </div>
+
+    <script src="/static/js/master.js"></script>
+</body>
+</html>

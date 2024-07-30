@@ -1,0 +1,172 @@
+{
+  "properties": [
+    {
+      "name": "Bangladesh",
+      "color": "Blue",
+      "price": 2000,
+      "rent": [200, 400, 600, 800, 1000, 1200],
+      "houseCost": 200,
+      "hotelCost": 300
+    },
+    {
+      "name": "Japan",
+      "color": "Blue",
+      "price": 4000,
+      "rent": [400, 800, 1000, 800, 1000,1200],
+      "houseCost": 300,
+      "hotelCost": 500
+    },
+    {
+      "name": "Sri Lanka",
+      "color": "Blue",
+      "price": 3000,
+      "rent": [300, 600, 800, 1200, 2000, 2400],
+      "houseCost": 200,
+      "hotelCost": 300
+    },
+    {
+      "name": "Australia",
+      "color": "Yellow",
+      "price": 5000,
+      "rent": [500, 1000, 1200, 1600, 2000, 1200],
+      "houseCost": 300,
+      "hotelCost": 400
+    },
+    {
+      "name": "New Zealand",
+      "color": "Yellow",
+      "price": 4500,
+      "rent": [450, 900, 1000, 1400, 2000, 2400],
+      "houseCost": 300,
+      "hotelCost": 400
+    },
+    {
+      "name": "USA",
+      "color": "Purple",
+      "price": 9000,
+      "rent": [900, 1800, 2000, 2400, 3000, 4000],
+      "houseCost": 400,
+      "hotelCost": 600
+    },
+    {
+      "name": "India",
+      "color": "Purple",
+      "price": 6500,
+      "rent": [1300, 1600, 2000, 3000, 4000],
+      "houseCost": 300,
+      "hotelCost": 500
+    },
+    {
+      "name": "London",
+      "color": "Purple",
+      "price": 7000,
+      "rent": [700, 1400, 1600, 2000, 3000, 3600],
+      "houseCost": 350,
+      "hotelCost": 500
+    },
+    {
+      "name": "Germany",
+      "color": "Pink",
+      "price": 6000,
+      "rent": [600, 1200, 1400, 1800, 2400, 3000],
+      "houseCost": 500,
+      "hotelCost": 600
+    },
+    {
+      "name": "France",
+      "color": "Pink",
+      "price": 5000,
+      "rent": [500, 1000, 1200, 1800, 2400, 3000],
+      "houseCost": 400,
+      "hotelCost": 500
+    },
+    {
+      "name": "Singapore",
+      "color": "Red",
+      "price": 3000,
+      "rent": [300, 600, 800, 600, 1800, 2200],
+      "houseCost": 150,
+      "hotelCost": 200
+    },
+    {
+      "name": "Hong Kong",
+      "color": "Red",
+      "price": 3500,
+      "rent": [350, 700, 800, 1200, 1600, 2400],
+      "houseCost": 150,
+      "hotelCost": 300
+    },
+    {
+      "name": "China",
+      "color": "Red",
+      "price": 4500,
+      "rent": [450, 900, 1000, 1400, 2000, 2600],
+      "houseCost": 200,
+      "hotelCost": 400
+    },
+    {
+      "name": "Dubai",
+      "color": "Orange",
+      "price": 3000,
+      "rent": [300, 600, 800, 1200, 1800, 2400],
+      "houseCost": 300,
+      "hotelCost": 400
+    },
+    {
+      "name": "Canada",
+      "color": "Orange",
+      "price": 4000,
+      "rent": [400, 800, 1000, 1400, 2000, 2400],
+      "houseCost": 200,
+      "hotelCost": 300
+    },
+    {
+      "name": "Russia",
+      "color": "Orange",
+      "price": 5500,
+      "rent": [550, 1100, 1200, 1600, 2400, 3000],
+      "houseCost": 400,
+      "hotelCost": 500
+    },
+    {
+      "name": "Switzerland",
+      "color": "Green",
+      "price": 3500,
+      "rent": [350, 700, 800, 1200, 1600, 2000],
+      "houseCost": 250,
+      "hotelCost": 350
+    },
+    {
+      "name": "Egypt",
+      "color": "Green",
+      "price": 3500,
+      "rent": [350, 700, 1000, 1400, 2000, 2400],
+      "houseCost": 150,
+      "hotelCost": 200
+    },
+    {
+      "name": "Spain",
+      "color": "Green",
+      "price": 4000,
+      "rent": [400, 800, 1000, 1400, 2000, 2400],
+      "houseCost": 200,
+      "hotelCost": 300
+    },
+    {
+      "name": "Italy",
+      "color": "dark Green",
+      "price": 3000,
+      "rent": [300, 600, 800, 1200, 1600, 2000],
+      "houseCost": 200,
+      "hotelCost": 300
+    },
+    {
+      "name": "South Africa",
+      "color": "dark Green",
+      "price": 4500,
+      "rent": [450, 900, 1000, 1400, 2000, 2400],
+      "houseCost": 300,
+      "hotelCost": 400
+    }
+  ]
+}

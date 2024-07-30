@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly Player Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monopoly Player Interface</h1>
+
+        <h2>Select Player</h2>
+        <select id="player-select" onchange="setCurrentPlayer()"></select>
+
+        <h2>Player Information</h2>
+        <div id="player-info"></div>
+
+        <h2>Properties</h2>
+        <div id="property-list" class="property-list"></div>
+
+        <h2>Transfer</h2>
+        <select id="receiver-select"></select>
+        <input type="number" id="transfer-amount" placeholder="Cash Amount">
+        <select id="transfer-property"></select>
+        <button onclick="transfer()">Transfer</button>
+
+        <h2>Pay Rent</h2>
+        <select id="rent-receiver-select"></select>
+        <input type="number" id="rent-amount" placeholder="Amount">
+        <button onclick="payRent()">Pay Rent</button>
+    </div>
+
+    <script src="/static/js/player.js"></script>
+</body>
+</html>
