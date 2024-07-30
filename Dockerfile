@@ -21,4 +21,4 @@ ENV FLASK_RUN_HOST=0.0.0.0
 EXPOSE 8000
 
 # Run the Flask app
-CMD ["flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
