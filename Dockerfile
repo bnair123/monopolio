@@ -29,4 +29,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the Flask app
-CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=8000"]
